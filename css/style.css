@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}   
+#contenedorApp{
+    margin: 0 auto;
+    text-align: center;
+}
+.jumbotron{
+    background-image: url("http://www.nigronotaroviajes.com.ar/resources/original/avion.jpg");
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+}
+.centrado{
+    text-align: center;
+}
+.card{
+    height: 450px;
+    font-size: 15px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+footer{
+    height: 60px;
+    background: gray;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.modal-content{
+    background: gray;
+}
+@media (max-width: 990px) {
+    .card h5{
+        font-size: 18px;
+    }
+    .card{
+        height: 500px;
+        font-size: 12px;
+    }
+    footer{
+      padding: 10px;
+      height: 70px;
+    }
+    .card-img-top{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 621px) {
+    .card{
+        height: 700px;
+    }
+
+}
+@media (max-width: 575px) {
+    .card h5{
+        font-size: 20px;
+    }
+    .card{
+        height: 550px;
+        font-size: 15px;
+    }
+}
